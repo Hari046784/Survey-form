@@ -1,0 +1,60 @@
+.first{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid rgb(218, 226, 226);
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size:12px;
+}
+
+body{
+    background-color: white;
+    float:left;
+    width:700px;
+    margin: 100;
+    border: coral;
+    align-content: center;
+    display: flex;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}
+
+.suggest{
+    display: grid;
+}
+
+  
+div.stars{
+  width: 270px;
+  display:grid;
+  }
+  
+input.star {
+ display:none; 
+}
+  
+label.star {
+float: right;
+padding: 3px;
+margin-right: 5px;
+display: grid;
+font-size: 30px;
+color: #c77228;
+}
+  
+input.star:checked ~ label.star:before {
+content: '\f005';
+color: #FD4;
+}    
+ 
+label.star:before {
+content: '\f006';
+font-family: FontAwesome;
+}
+  
+   
+  
